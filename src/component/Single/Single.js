@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Single.css";
 import pool from "../../images/pool.jpg";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Single = (props) => {
   const { service, duration, training_hour, fee, image } = props.service;
@@ -18,7 +19,9 @@ const Single = (props) => {
         <h5>Course Duration: {duration}</h5>
         <h5>Training Hour: {training_hour}</h5>
         <h4> Course Fee: ${fee}</h4>
-        <Button variant="primary">Join Course</Button>
+        <Link to="/admission">
+          <Button variant="primary">Join Course</Button>
+        </Link>
       </div>
     </div>
   );
