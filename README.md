@@ -36,7 +36,7 @@ when someone enter a unvalid link it will redirect to a component called "Not Fo
 This project had build through React.js which is a javascrip library.
 check it here https://reactjs.org
 
-#### Vanila CSS
+#### Bootstrap & Vanila CSS
 
 This project is build with both vanila CSS styling and reac-bootsrap.
 
