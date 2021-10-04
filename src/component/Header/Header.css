@@ -1,0 +1,24 @@
+.nv {
+  font-size: larger;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  background-color: lightskyblue;
+}
+
+.icon {
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+  color: black;
+  font-weight: 900;
+}
+
+.mz {
+  margin: 0;
+}
