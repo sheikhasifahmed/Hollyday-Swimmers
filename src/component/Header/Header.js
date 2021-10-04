@@ -31,7 +31,7 @@ const Header = () => {
       <div className="flex">
         <img className="icon" src={icon} alt="" />
         <div>
-          <h1 className="mz">Holiday Swimming</h1>
+          <h1 className="mz">Holiday Swimmers</h1>
           <h3 className="mz">A Complete Swimming Training Academy</h3>
         </div>
       </div>

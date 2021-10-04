@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Hollyday Swimmers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link of this site: https://hollyday-swimming-academy.netlify.app
 
-## Available Scripts
+## Key points about this project
 
-In the project directory, you can run:
+### 1.Functionality of this project
 
-### `npm start`
+Hollyday swimmers is an imaginary swimming training academy.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Route to anywhere
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can route to any navlink of this projects. There is 4 valid navlinks: Home, services, admission and about us. you can route to any one of them from any other one.
 
-### `npm test`
+#### Header & Footer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can find the "Header" and "Footer" in any route of the project.
 
-### `npm run build`
+#### Showing the services
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All the services provided by this imaginary academy are showed in "service" navLink. 4 of them also showed in home section.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Admission and About us
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There is "admission" navLink where a form is created with "react-bootstrap".
+In "About Us" navlink anyone can read about the details of this imaginary academy.
 
-### `npm run eject`
+#### Not Found 404
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+when someone enter a unvalid link it will redirect to a component called "Not Found"
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2.Project building scripts & libraries
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Reac.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project had build through React.js which is a javascrip library.
+check it here https://reactjs.org
 
-## Learn More
+#### Vanila CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is build with both vanila CSS styling and reac-bootsrap.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Font Awsome
 
-### Code Splitting
+All the icon that used in this project is by Font_Awsome.
+here is the fontAwsome link https://fontawesome.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3.Upcoming upgrades
 
-### Analyzing the Bundle Size
+#### User Login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In a very near future the user login system will be introduced. Database will be saved in local storage. So, one can see his/her previous in the menu.
 
-### Making a Progressive Web App
+#### User Review
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In future we will build a system that every users can give review about theier experience.
 
-### Advanced Configuration
+#### Chat Box
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In future we will avail the users to live chat with the authority.
