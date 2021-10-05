@@ -11,11 +11,13 @@ const Services = () => {
       <h2
         style={{
           textAlign: "center",
-          backgroundColor: "lightpink",
+
+          backgroundColor: "lightgray",
           margin: "30px",
+          padding: "10px",
         }}
       >
-        Here is our services
+        -- Our Services --
       </h2>
       <div className="grid">
         {services.map((s) => (

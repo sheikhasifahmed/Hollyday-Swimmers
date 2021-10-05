@@ -1,9 +1,9 @@
 .nv {
   font-size: larger;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 20px;
-  background-color: lightskyblue;
+  justify-content: space-between;
+  /* padding-top: 20px; */
+  /* background-color: white; */
 }
 
 .icon {
@@ -11,14 +11,27 @@
 }
 
 .flex {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   background-color: lightskyblue;
-  color: black;
+  /* color: black; */
   font-weight: 900;
+  padding: 0 10px;
 }
 
 .mz {
   margin: 0;
+}
+
+.link {
+  color: green;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.link:hover {
+  background-color: rgba(230, 230, 250, 0.472);
+  border-radius: 10px;
 }

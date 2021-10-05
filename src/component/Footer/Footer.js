@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="ft">
       <p>
-        All rights of this site reseved by Hollyday Swimmers authority. <br />{" "}
+        All rights of this site reseved by Holiday Swimmers authority. <br />{" "}
         Contact us on phone: 0123456789 & Email: hollydayswimming@cmail.com
       </p>
     </div>

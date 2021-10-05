@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import useData from "../useData/useData";
 import Single from "../Single/Single";
 import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
         <img className="pic" src={photo} alt="" />
       </div>
       <div className="phelps">
-        <h1>
+        <h1 style={{ fontWeight: 900 }}>
           "I wouldn't say anything is impossible. I think that everything is
           possible as long as you put your mind to it and put the work and time
           into it." <br /> <br /> ---Michael Phelps
@@ -35,11 +35,14 @@ const Home = () => {
         style={{
           textAlign: "center",
           marginRight: "30px",
-          backgroundColor: "lightgray",
+
           marginBottom: "30px",
         }}
       >
-        <Link to="/services">Click Here</Link> to see all services
+        <Link style={{ textDecoration: "none", color: "red" }} to="/services">
+          Click Here
+        </Link>{" "}
+        to see all services
       </h3>
     </div>
   );

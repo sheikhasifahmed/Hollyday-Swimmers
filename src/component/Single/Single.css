@@ -1,5 +1,5 @@
 .card {
-  background-color: lightgrey;
+  background-color: rgba(135, 206, 250, 0.623);
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

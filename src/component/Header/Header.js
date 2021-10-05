@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import icon from "../../images/icon.png";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   let active = {
@@ -10,31 +11,25 @@ const Header = () => {
     textDecoration: "none",
   };
 
-  let black = { color: "green", fontWeight: 500, textDecoration: "none" };
-
   return (
-    <div>
+    <div className="flex">
+      <div>
+        <img className="logo" src={logo} alt="" />
+      </div>
       <nav className="nv">
-        <NavLink style={black} exact to="/" activeStyle={active}>
+        <NavLink className="link" exact to="/" activeStyle={active}>
           Home
         </NavLink>
-        <NavLink style={black} to="/services" activeStyle={active}>
+        <NavLink className="link" to="/services" activeStyle={active}>
           Services
         </NavLink>
-        <NavLink style={black} to="/admission" activeStyle={active}>
+        <NavLink className="link" to="/admission" activeStyle={active}>
           Admission
         </NavLink>
-        <NavLink style={black} to="about" activeStyle={active}>
+        <NavLink className="link" to="about" activeStyle={active}>
           About Us
         </NavLink>
       </nav>
-      <div className="flex">
-        <img className="icon" src={icon} alt="" />
-        <div>
-          <h1 className="mz">Holiday Swimmers</h1>
-          <h3 className="mz">A Complete Swimming Training Academy</h3>
-        </div>
-      </div>
     </div>
   );
 };
