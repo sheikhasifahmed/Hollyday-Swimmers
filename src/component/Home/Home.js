@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import "./Home.css";
 import photo from "../../images/headerPic.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +20,7 @@ const Home = () => {
         <img className="pic" src={photo} alt="" />
       </div>
       <div className="phelps">
-        <h1 style={{ fontWeight: 900 }}>
+        <h1 className="animate__animated animate__backInDown  animate__slower">
           "I wouldn't say anything is impossible. I think that everything is
           possible as long as you put your mind to it and put the work and time
           into it." <br /> <br /> ---Michael Phelps
