@@ -29,7 +29,7 @@ const Home = () => {
       <h2 className="serv">--Check our services--</h2>
       <div className="grid">
         {fewS.map((s) => (
-          <Single service={s}></Single>
+          <Single key={s.course_id} service={s}></Single>
         ))}
       </div>
       <h3

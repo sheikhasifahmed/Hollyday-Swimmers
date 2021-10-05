@@ -16,6 +16,10 @@ You can route to any navlink of this projects. There is 4 valid navlinks: Home, 
 
 You can find the "Header" and "Footer" in any route of the project.
 
+#### Animation in the home
+
+There is a simple animation in the home route. The animation is done by a css animation library https://animate.style
+
 #### Showing the services
 
 All the services provided by this imaginary academy are showed in "service" navLink. 4 of them also showed in home section.

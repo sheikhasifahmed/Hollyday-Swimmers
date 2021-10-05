@@ -21,7 +21,7 @@ const Services = () => {
       </h2>
       <div className="grid">
         {services.map((s) => (
-          <Single service={s}></Single>
+          <Single key={s.course_id} service={s}></Single>
         ))}
       </div>
     </div>
