@@ -26,7 +26,7 @@ const Home = () => {
           into it." <br /> <br /> ---Michael Phelps
         </h1>
       </div>
-      <h2 className="serv">Our Services</h2>
+      <h2 className="serv">--Check our services--</h2>
       <div className="grid">
         {fewS.map((s) => (
           <Single service={s}></Single>

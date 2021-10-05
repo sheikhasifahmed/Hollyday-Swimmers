@@ -12,7 +12,7 @@ const Services = () => {
         style={{
           textAlign: "center",
 
-          backgroundColor: "lightgray",
+          backgroundColor: "lightskyblue",
           margin: "30px",
           padding: "10px",
         }}
